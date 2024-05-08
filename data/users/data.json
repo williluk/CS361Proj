@@ -1,0 +1,21 @@
+{
+    "userId": 1,
+    "username": "MrMan",
+    "password": "super",
+    "stats": 
+    {
+        "money": 0,
+        "networth": 0
+    },
+    "items": 
+    [{
+        "imgName": "image",
+        "pos": 
+        {
+            "x": 0,
+            "y": 0
+        },
+        "width": 3,
+        "height": 2
+    }]
+}

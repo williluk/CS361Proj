@@ -19,11 +19,10 @@ async function postJSON(data, filename)
 
 async function fetchJSON(filename) 
 {
-    var data;
     const myRequest = new Request("data/" + filename);
-    fetch(myRequest).then((response) => response.text()).then((text) => 
+    var data = await fetch(myRequest).then((response) => response.json()).then((json) => 
     {
-        data = text
+        data = json
         console.log(data)
     });
     return data

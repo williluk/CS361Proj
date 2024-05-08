@@ -55,3 +55,9 @@ function hideGameScreen()
 {
     minigameScreenOverlay.classList.add("hidden"); 
 }
+
+function loadUserData(uID)
+{
+    var data = fetchJSON("users/" + uID.toString())
+    
+}
