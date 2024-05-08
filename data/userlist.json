@@ -1,0 +1,7 @@
+{
+    "list":
+    [
+        { "uname":"MrMan", "password":"super", "uID":1 }, 
+        { "uname":"Coops", "password":"boop", "uID":2 }
+    ]
+}
